@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+  
+  .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    outline: 2px solid tomato;
+  }
+  
+  .list {
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+  
+  .link {
+  text-decoration: none;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+  line-height: 1.143;
+  color: gray;
+  }
